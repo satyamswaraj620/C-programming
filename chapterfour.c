@@ -9,10 +9,10 @@
 // #include<stdio.h>
 // int main(){
 // int b ;
-// scanf("%d",&b); 
-    
+// scanf("%d",&b);
+
 //     for(int i =0;i<=b;i = i+1){
-        
+
 //         printf("%d\n",i);
 //      }
 // int b;
@@ -25,8 +25,9 @@
 
 //}
 
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
     // int s;
     // int i =0 ;
     // printf("give a number ");
@@ -39,7 +40,7 @@ int main(){
     // int p ;
     // printf("give a number ");
     //  scanf("%d",&p);
-    
+
     // for(int i = 1; i<=p;i++ ){
     //     printf("%d\n",i);
     //}
@@ -53,36 +54,69 @@ int main(){
     //     i++;
     // }while(i<=w);
 
-// int v ;
-// int sum = 0 ;
-// printf("enter number");
-// scanf("%d",&v);
+    // int v ;
+    // int sum = 0 ;
+    // printf("enter number");
+    // scanf("%d",&v);
 
-// for(int i = v ; i>=1; i--){
-     
-// sum = sum + i ;
-// printf("%d\n",sum );
+    // for(int i = v ; i>=1; i--){
 
-  
+    // sum = sum + i ;
+    // printf("%d\n",sum );
+
+    // }
+
+    // printf("%d\n",sum);
+
+    // int s ;
+    // printf("enter a number : -");
+    // scanf("%d",&s);
+    // int mutiple = 1 ;
+
+    // for(int i = 1; i <=s; i++){
+    // mutiple = mutiple*i ;
+    // printf("%d\n",mutiple);
+
+    // }
+    // printf("factoral of given number is : - %d", mutiple);
+
+//     int w;
+
+//     printf("enter a number : -");
+//     scanf("%d", &w);
+
+// for(int i = 1; i<=10;i++){
+//     int table = w*i ;
+//     printf("%d\n",table);
+
 // }
-
-// printf("%d\n",sum);
-
-
-
-int s ;
-printf("enter a number : -");
-scanf("%d",&s);
-int mutiple = 1 ;
-
-for(int i = 1; i <=s; i++){
-mutiple = mutiple*i ;
-printf("%d\n",mutiple);
+// int s;
+// printf("Enter only even number ");
+// for(;;){
+//     scanf("%d",&s);
+// printf("%d\n",s);
+// if(s%2!=0){
+//     break;
+// }
+// }
+// printf("!you enter a odd no!");
 
 
+//     return 0;
+// }
+int s;
+
+for(;;){
+    printf("Enter number except mutiple of 7 ");
+    scanf("%d",&s);
+printf("%d\n",s);
+if(s%7==0){
+    break;
 }
-printf("factoral of given number is : - %d", mutiple);
-
-    return 0 ;
 }
+printf("!you enter number is mutiple of '7'!");
+printf("thank you");
 
+
+    return 0;
+}
