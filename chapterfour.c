@@ -53,24 +53,35 @@ int main(){
     //     i++;
     // }while(i<=w);
 
-int v ;
-int sum = 0 ;
-printf("enter number");
-scanf("%d",&v);
+// int v ;
+// int sum = 0 ;
+// printf("enter number");
+// scanf("%d",&v);
 
-for(int i = v ; i>=1; i--){
+// for(int i = v ; i>=1; i--){
      
-sum = sum + i ;
-printf("%d\n",sum );
+// sum = sum + i ;
+// printf("%d\n",sum );
 
   
+// }
+
+// printf("%d\n",sum);
+
+
+
+int s ;
+printf("enter a number : -");
+scanf("%d",&s);
+int mutiple = 1 ;
+
+for(int i = 1; i <=s; i++){
+mutiple = mutiple*i ;
+printf("%d\n",mutiple);
+
+
 }
-
-printf("%d\n",sum);
-
-
-
-
+printf("factoral of given number is : - %d", mutiple);
 
     return 0 ;
 }
