@@ -80,43 +80,104 @@ int main()
     // }
     // printf("factoral of given number is : - %d", mutiple);
 
-//     int w;
+    //     int w;
 
-//     printf("enter a number : -");
-//     scanf("%d", &w);
+    //     printf("enter a number : -");
+    //     scanf("%d", &w);
 
-// for(int i = 1; i<=10;i++){
-//     int table = w*i ;
-//     printf("%d\n",table);
+    // for(int i = 1; i<=10;i++){
+    //     int table = w*i ;
+    //     printf("%d\n",table);
 
-// }
-// int s;
-// printf("Enter only even number ");
-// for(;;){
-//     scanf("%d",&s);
-// printf("%d\n",s);
-// if(s%2!=0){
-//     break;
-// }
-// }
-// printf("!you enter a odd no!");
+    // }
+    // int s;
+    // printf("Enter only even number ");
+    // for(;;){
+    //     scanf("%d",&s);
+    // printf("%d\n",s);
+    // if(s%2!=0){
+    //     break;
+    // }
+    // }
+    // printf("!you enter a odd no!");
 
+    //     return 0;
+    // }
+    // int s;
+
+    // for(;;){
+    //     printf("Enter number except mutiple of 7 ");
+    //     scanf("%d",&s);
+    // printf("%d\n",s);
+    // if(s%7==0){
+    //     break;
+    // }
+    // }
+    // printf("!you enter number is mutiple of '7'!");
+    // printf("thank you");
+
+//     for (int i = 1; i <= 10; i++)
+//     {
+        
+//         if (i == 6)
+//         {
+//             continue;
+//         }
+//         printf("%d\n", i);
+//     }
 
 //     return 0;
 // }
-int s;
 
-for(;;){
-    printf("Enter number except mutiple of 7 ");
-    scanf("%d",&s);
-printf("%d\n",s);
-if(s%7==0){
-    break;
-}
-}
-printf("!you enter number is mutiple of '7'!");
-printf("thank you");
+//     for (int i = 5; i <= 50; i++)
+//     {
+        
+//         if (i%2==0)
+//         {
+//             continue;
+//         }
+//         printf("%d\n", i);
+//     }
+
+//     return 0;
+// }
+// for (int i = 5; i <= 50; i++)
+//     {
+        
+//         if (i%2!=0)
+//         {
+//             continue;
+//         }
+//         printf("%d\n", i);
+//     }
+
+//     return 0;
+// }
 
 
-    return 0;
+
+
+    //  int w;
+
+    //     printf("enter a number : -");
+    //     scanf("%d", &w);
+
+    // for(int i = 10; i>=1;i--){
+    //     int table = w*i ;
+    //     printf("%d\n",table);
+    // }
+    
+    
+
+
+
+  
+    int sum = 0 ;
+   
+    for(int i = 5;i<=50;i++){
+        sum = sum + i ;
+    }
+printf("sum of number from 5 to 50 is %d: ",sum);
+    
+    return 0 ;
 }

@@ -16,43 +16,43 @@ int main()
        }
        return 0; */
 
-    // printf("PLEASE ENTER YOUR ROLL NO  :- ");
-    // scanf("%d", & rollno);
+    printf("PLEASE ENTER YOUR ROLL NO  :- ");
+    scanf("%d", & rollno);
 
-    // switch (rollno)
-    // {
+    switch (rollno)
+    {
 
-    // case 35:
-    //     printf("WELCOME 'SATYAM SWARAJ' \n");
-    //     printf("HOW ARE YOUR? . How can i help ?");
-    //     break;
+    case 35:
+        printf("WELCOME 'SATYAM SWARAJ' \n");
+        printf("HOW ARE YOUR? . How can i help ?");
+        break;
 
-    // case 36:
-    //     printf("WELCOME 'HIMANSHU PANDAY'\n");
-    //     printf("HOW ARE YOUR? . How can i help ? ");
-    //     break;
+    case 36:
+        printf("WELCOME 'HIMANSHU PANDAY'\n");
+        printf("HOW ARE YOUR? . How can i help ? ");
+        break;
 
-    // case 53:
-    //     printf("WELCOME 'SARA AFREEN'\n");
-    //     printf("HOW ARE YOUR? . How can i help? ");
+    case 53:
+        printf("WELCOME 'SARA AFREEN'\n");
+        printf("HOW ARE YOUR? . How can i help? ");
 
-    //     break;
+        break;
 
-    // case 56:
-    //     printf("WELCOME 'OMM PRAKASH MUDUIL'\n");
-    //     printf("HOW ARE YOUR? . How can i help? ");
+    case 56:
+        printf("WELCOME 'OMM PRAKASH MUDUIL'\n");
+        printf("HOW ARE YOUR? . How can i help? ");
 
-    //     break;
+        break;
 
-    // case 60:
-    //     printf("WELCOME ''\n");
-    //     printf("HOW ARE YOUR? . How can i help? ");
-    //     break;
+    case 60:
+        printf("WELCOME ''\n");
+        printf("HOW ARE YOUR? . How can i help? ");
+        break;
 
-    // default:
-    //     printf("user not found");
-    // }
-    // return 0;
+    default:
+        printf("user not found");
+    }
+    return 0;
 
     // CHAPTER THREE QUESTION PRACTISE
     // first question
