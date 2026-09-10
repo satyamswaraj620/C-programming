@@ -143,14 +143,45 @@
 
 
 
+// #include <stdio.h>
+
+// int sum(int n );
+
+// int main(){                          //RECUSION DO IT AGAIN 
+                                        //RECUSION DO IT AGAIN
+                                        //RECUSION DO IT AGAIN
+                                        //RECUSION DO IT AGAIN
+
+
+// }
+
+// int sum(int n ){
+//     int sum = sum(n-1) + n ;
+//     sum
+// }
+
 #include <stdio.h>
 
-int sum(int n );
+int factorial(int a);
 
 int main(){
-
+    int a ;
+    printf("enter a number - ");
+    scanf("%d",&a);
+factorial(a);
+return 0 ;
 }
 
-int sum(int n ){
-    sum = n 
+int factorial(int a){
+ int c = 1 ;
+    for(int i = 1;i<=a;i++){
+       
+
+   int  c=  i*c; 
+    printf("factorial is - %d", c);
+
+    }
+    printf("factorial is - %d", c);
 }
+
+
