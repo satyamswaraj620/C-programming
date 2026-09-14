@@ -186,7 +186,7 @@ int factorial(int a){
     return c;
 }    */
 
-#include <stdio.h>
+/*#include <stdio.h>
 
 int fact(int a);
 
@@ -209,7 +209,51 @@ int fact(int a){
     
  return factn ;
     
+}   */
+
+/*#include<stdio.h>
+
+float temp(float a);
+
+int main(){
+    int a ;
+    printf("Enter temp in celsius : - ");
+    scanf("%d",&a);
+     temp(a);
+    return 0 ;
+
 }
+float temp(float a){
+    float c = (a*9.0/5.0) + 32 ;
+    printf("temp in fahrenheit is : - %f ", c);
+  
+  
+}*/
+
+#include<stdio.h>
+
+float per(float a,float b,float c);
+
+int main(){
+    float a ,b,c;
+    printf("Enter math number : -");
+    scanf("%f",&a);
+    printf("Enter science number : -");
+    scanf("%f",&b);
+    printf("Enter english number : -");
+    scanf("%f",&c);
+    per(a,b,c);
+    return 0 ;
+}
+    float per(float a,float b,float c){
+        float percentage = (a+b+c)/300.0;
+        float totalper = percentage*100.0;
+        printf("percentage : - %f\n",totalper);
+return totalper ;
+    }
+
+
+
 
 
 
