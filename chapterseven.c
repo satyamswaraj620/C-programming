@@ -25,7 +25,7 @@
 
     printf("enter clothes price : ");
     scanf("%f",&price[2]);
-
+                             
 
     gst(price[0],price[1],price[2]);
 return 0;    
