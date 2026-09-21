@@ -1,4 +1,4 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 // int main (){
 
@@ -41,7 +41,7 @@
 
 //     }
 
-#include <stdio.h>
+// #include <stdio.h>
 
 // int main()
 // {
@@ -59,9 +59,56 @@
 //      return 0 ;
 // }
 
-int main(){             
-               
-        printf("")
-     
-                            
+/*#include<stdio.h>
+
+int main(){
+int marks[3] ;
+int  *ptr = &marks[0] ;
+
+
+
+printf("Satyam swaraj enter your marks ");
+for(int i = 0 ; i<3 ; i++ ){
+scanf("%d",ptr+i);
+}
+printf("marks - %d,%d,%d ", marks[0],marks[1],marks[2]);
+} */
+/*#include <stdio.h>
+int main()
+{
+        int marks[2][3];
+
+        marks[0][0] = 50;
+        marks[0][1] = 60;
+        marks[0][2] = 90;
+
+
+        marks[1][0] = 88;
+        marks[1][1] = 72;
+        marks[1][2] = 76;
+
+
+        printf( "%d",marks[1][1]);
+}       */
+#include<stdio.h>
+
+int countOdd(int arry[] , int n );
+
+int main(){
+        int arry[6] = { 1,2,3,4,5,6};
+       countOdd(arry,6);
+
+}
+int countOdd(int arry[] , int n ){
+int count = 0 ;
+for(int i = 0 ; i <=n ; i++ ){
+
+        if(arry[i] % 2 != 0 ){
+                count++ ;
+
+        }
+        
+}
+       printf("No of Odd number is - %d", count) ;                
+       return count ;
 }
