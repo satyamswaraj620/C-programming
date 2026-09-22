@@ -160,7 +160,7 @@
 //     sum
 // }
 
-/*#include <stdio.h>
+#include <stdio.h>
 
 int factorial(int a);
 
@@ -178,13 +178,13 @@ int factorial(int a){
        
 
      c=  c*i; 
-   printf(" %d\n", c);
+   //printf(" %d\n", c);
 
     }
     printf("factorial is - %d", c);
     
     return c;
-}    */
+}    
 
 /*#include <stdio.h>
 
@@ -230,30 +230,31 @@ float temp(float a){
   
 }*/
 
-#include<stdio.h>
+// #include<stdio.h>
 
-float per(float a,float b,float c);
+// float per(float a,float b,float c);
 
-int main(){
-    float a ,b,c;
-    printf("Enter math number : -");
-    scanf("%f",&a);
-    printf("Enter science number : -");
-    scanf("%f",&b);
-    printf("Enter english number : -");
-    scanf("%f",&c);
-    per(a,b,c);
-    return 0 ;
-}
-    float per(float a,float b,float c){
-        float percentage = (a+b+c)/300.0;
-        float totalper = percentage*100.0;
-        printf("percentage : - %f\n",totalper);
-return totalper ;
-    }
-
-
+// int main(){
+//     float a ,b,c;
+//     printf("Enter math number : -");
+//     scanf("%f",&a);
+//     printf("Enter science number : -");
+//     scanf("%f",&b);
+//     printf("Enter english number : -");
+//     scanf("%f",&c);
+//     per(a,b,c);
+//     return 0 ;
+// }
+//     float per(float a,float b,float c){
+//         float percentage = (a+b+c)/300.0;
+//         float totalper = percentage*100.0;
+//         printf("percentage : - %f\n",totalper);
+// return totalper ;
+//     }
 
 
 
 
+
+
+#include <>
