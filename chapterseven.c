@@ -90,7 +90,7 @@ int main()
 
         printf( "%d",marks[1][1]);
 }       */
-#include<stdio.h>
+/*#include<stdio.h>
 
 int countOdd(int arry[] , int n );
 
@@ -111,4 +111,63 @@ for(int i = 0 ; i <=n ; i++ ){
 }
        printf("No of Odd number is - %d", count) ;                
        return count ;
+} */
+
+// #include <stdio.h>
+
+// int main()
+// {
+//     int n, a = 0, b = 1, c, i;                              // chatgpt 
+                                                                   // chatgpt 
+
+//     printf("Enter the number of terms: ");
+//     scanf("%d", &n);
+
+//     printf("Fibonacci Series: ");
+
+//     for(i = 1; i <= n; i++)
+//     {
+//         printf("%d ", a);
+
+//         c = a + b;
+//         a = b;
+//         b = c;
+//     }
+
+//     return 0;
+// }
+
+/*#include<stdio.h>
+
+void reverse(int arry[],int n);
+
+void print(int arry[],int n);
+
+
+int main(){
+        int arry[] =  {1,2,3,4,5} ;
+
+        reverse(arry , 5 );
+     print(arry,5 );
+       
+        return 0 ; 
 }
+void reverse(int arry[] , int n){
+        for(int i = 0 ; i <n/2; i++){
+                
+              int   firstvalue = arry[i];
+               int  secondvalue = arry[n-1-i];
+                arry[i] = secondvalue ;
+                arry[n-1-i] = firstvalue ;
+        }
+  // printf("first value is = % d , second value is = %d ", arry[0], arry [1]);
+       
+
+}
+     void print(int arry[],int n){
+        for(int i = 0 ; i < n ; i++){
+                printf("%d\t ", arry[i]);
+        }
+     }
+*/
+                    
