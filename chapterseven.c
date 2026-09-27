@@ -170,5 +170,5 @@ void reverse(int arry[] , int n){
         }
      }
 */                                        #include <stdio.h>
-int 
+int main ()
                     
