@@ -173,5 +173,6 @@ void reverse(int arry[] , int n){
 int main (){
 
         int a, b;
-}
-                    
+
+        pritnf("hellp satyam ");
+        scanf("&%                    
