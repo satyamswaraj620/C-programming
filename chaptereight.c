@@ -68,5 +68,10 @@ int lenght(char name[]){
 count = count +1;
     }
     printf("countis  %d ", count-1);
+    
 }
 
+#include<stdio.h>
+int main(){
+    
+}
