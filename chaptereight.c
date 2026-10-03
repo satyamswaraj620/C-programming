@@ -109,3 +109,8 @@ puts(input);
 return 0 ;
  }
  
+    }
+input[i] = '\0';
+puts(input);
+return 0 ;
+ }
