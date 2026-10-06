@@ -88,5 +88,6 @@ int main(){
 }
 cst[0].cgpa = 8.5 ;
     cst[1].name = strcpy(name , Sara afreen );
+    cst[1].roll = 53 ;    cst[1].name = strcpy(name , Sara afreen );
     cst[1].roll = 53 ;
     
