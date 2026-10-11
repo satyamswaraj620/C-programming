@@ -68,26 +68,60 @@
 // }
 
 #include <stdio.h>
+#include<string.h>
 
 struct student
 {
-    char name;
+    char name[100];
     int roll;
     float cgpa;
 };
 
 int main(){
     struct student cst[4];
-    cst[0].name = strcpy(name, SATYAM SWARAJ);
+  strcpy(cst[0].name, "SATYAM SWARAJ");
     cst[0].roll = 35 ;
     cst[0].cgpa = 8.5 ;
-    cst[1].name = strcpy(name , Sara afreen );
+     strcpy(cst[1].name , "Sara afreen" );
     cst[1].roll = 53 ;
-    
+     cst[1].cgpa = 9.5;
+
+      printf("Hii %s  \n", cst[0].name);
+
+printf("your roll no is - %d \n", cst[0].roll);
+
+    printf("your first semester cgpa is - %f\n", cst[0].cgpa);
+
+    printf("Hii %s  \n", cst[1].name);
+
+printf("your roll no is - %d \n", cst[1].roll);
+
+    printf("your first semester cgpa is - %f\n", cst[1].cgpa);
+
+    return 0;
+ 
+     
 
 }
-cst[0].cgpa = 8.5 ;
-    cst[1].name = strcpy(name , Sara afreen );
-    cst[1].roll = 53 ;    cst[1].name = strcpy(name , Sara afreen );
-    cst[1].roll = 53 ;
+
+ /*#include <stdio.h>
+ #include <string.h>
+
+struct student1
+ {
+     int rollno;
+     char name[100];
+     float cgpa;
+ };
+
+ int main(){
+    struct student1 s1 = {35, "SATYAM SWARAJ",8.5} ;
+
     
+   printf("Hii %s  \n", s1.name);
+
+printf("your roll no is - %d \n", s1.rollno);
+
+    printf("your first semester cgpa is - %f\n", s1.cgpa);
+ }
+ */
