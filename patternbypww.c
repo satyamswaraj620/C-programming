@@ -209,31 +209,61 @@
 
 
 
+// #include<stdio.h>
+// int main(){
+//     int n ;
+//     printf("Enter a number - ");
+//     scanf("%d",&n);
+
+//     for(int i = 1; i <= n; i++){
+//         char a = 'A';
+//    for(int j = 1; j<=i;j++){
+    
+//     printf("%c", a);
+//     a = a + 1 ;
+//    }
+//    printf("\n");
+//     }
+//     return 0 ;
+// }
+// printf("\n");
+//     }
+//     return 0 ;
+// }
+//     }
+//     return 0 ;
+// }
+// printf("\n");
+//     }
+//     return 0 ;
+// }
+
 #include<stdio.h>
 int main(){
-    int n ;
-    printf("Enter a number - ");
+    int n, x ,orignal, sum = 0; 
+    printf("enter a number ");
     scanf("%d",&n);
+    orignal= n ;
+    if(n!=0){
+for(int i = 1 ; n!=0 ; i++){
 
-    for(int i = 1; i <= n; i++){
-        char a = 'A';
-   for(int j = 1; j<=i;j++){
+//if(n!=0){
     
-    printf("%c", a);
-    a = a + 1 ;
-   }
-   printf("\n");
-    }
-    return 0 ;
+     x = n%10 ;
+    printf("%d\n", x);
+
+   n = n/10 ;
+    //  printf("%d\n", n);
+
+      sum = x*x*x + sum ;
 }
-printf("\n");
-    }
-    return 0 ;
+
 }
-    }
-    return 0 ;
+//printf("%d",sum);
+if(sum = orignal){
+printf("yes enter no is a armstrom no %d", sum );}
+else{
+  printf("not a armstrom no");
 }
-printf("\n");
-    }
-    return 0 ;
+return 0 ;
 }
