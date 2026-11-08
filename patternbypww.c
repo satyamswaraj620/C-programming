@@ -238,32 +238,200 @@
 //     return 0 ;
 // }
 
-#include<stdio.h>
-int main(){
-    int n, x ,orignal, sum = 0; 
-    printf("enter a number ");
-    scanf("%d",&n);
-    orignal= n ;
-    if(n!=0){
-for(int i = 1 ; n!=0 ; i++){
+// #include<stdio.h>
+// int main(){
+//     int n, x ,orignal, sum = 0; 
+//     printf("enter a number ");                       //number extraction 
+//     scanf("%d",&n);
+//     orignal= n ;
+//     if(n!=0){
+// for(int i = 1 ; n!=0 ; i++){
 
-//if(n!=0){
+// //if(n!=0){
     
-     x = n%10 ;
-    printf("%d\n", x);
+//      x = n%10 ;
+//     printf("%d\n", x);
 
-   n = n/10 ;
-    //  printf("%d\n", n);
+//    n = n/10 ;
+//     //  printf("%d\n", n);
 
-      sum = x*x*x + sum ;
-}
+//       sum = x*x*x + sum ;
+// }
 
-}
-//printf("%d",sum);
-if(sum = orignal){
-printf("yes enter no is a armstrom no %d", sum );}
-else{
-  printf("not a armstrom no");
-}
-return 0 ;
-}
+// }
+// //printf("%d",sum);
+// if(sum = orignal){
+// printf("yes enter no is a armstrom no %d", sum );}
+// else{
+//   printf("not a armstrom no");
+// }
+// return 0 ;
+// }
+
+
+// #include<stdio.h>
+// int main(){
+// int n  ;
+// printf("enter a number ");
+// scanf("%d",&n);
+
+// for(int i = 1 ; i<= n ; i++){
+//   char a = 'A' ;
+//   for(int j = 1 ; j<=n ; j++){
+
+// printf("%c",a);
+// a = a + 1 ;
+
+//   }
+//   printf("\n");
+
+// }
+// return 0 ;
+// }
+
+// #include<stdio.h>
+// int main(){
+// int n  ;
+// printf("enter a number ");
+// scanf("%d",&n);
+
+// for(int i = 1 ; i<=n ; i++){
+//   char a = 'A' ;
+
+//   if(i%2 == 0){
+//     for(int j = 1 ; j<=i ; j ++){             // Alphabet and number 
+
+//       printf("%c",a);
+//       a++ ;
+//     } }
+//     else{
+//       for(int z = 1 ; z<=i; z++){
+//         printf("%d", z);
+      
+//     } }
+  
+//   printf("\n");
+// }
+
+// return 0 ;
+
+// }
+
+// #include<stdio.h>
+// int main(){
+//   int n ;
+//   printf("Enter a number : - ");
+//   scanf("%d",&n);
+
+//   for(int i = 1 ; i<=n ; i++){
+
+// if(i== (n+1)/2){
+//   for(int j = 1 ; j<=n ; j++){
+//   printf("*");
+//   }
+// }else{
+// for(int j = 1 ; j<=n ; j++){
+//   if(j== (n+1)/2){
+//     printf("*");
+//   }                                   ///  my method 
+// //   else{                                          *  
+//                                                     *  
+//                                                   *****
+//                                                     *  
+//                                                     * 
+//     printf(" ");
+//   }                                           
+// }
+// }
+// printf("\n");
+//   }
+//   return  0 ;
+// }
+
+// #include<stdio.h>
+// int main(){
+//   int n ;                                    // Easy metheod by sir 
+//   printf("Enter a number : - ");
+//   scanf("%d",&n);
+
+//   for(int i = 1 ; i<=n ; i++){
+
+// for(int j = 1 ; j<=n ; j++){
+//   if(j == n/2 + 1 || i == n/2 + 1 ) printf("*");
+//   else printf(" ");
+// }
+// printf("\n");
+//   }
+//   return  0 ;
+// }
+
+// #include<stdio.h>
+// int main (){
+//   int n ; 
+//   printf("Enter a number : - ");
+//   scanf("%d", &n );
+  
+//   for(int i = 1 ; i<= n ; i++ ){
+                                                              //    HOLLOW SQUARE 
+//     for (int j = 1 ; j<= n ; j ++ ){
+//       if(j == 1 ||j == n ||i == 1 ||i == n)
+//       printf("*");
+//       else printf(" ");
+//     }
+//     printf("\n");
+//   }
+// return 0 ;
+
+// }
+
+
+
+
+// #include<stdio.h>
+// *****
+// *   *
+// *   *
+// *****
+
+// int main (){
+//   int n ,  m; 
+//   printf("Enter a number row : - ");
+//   scanf("%d", &n );
+//    printf("Enter a number of column : - ");
+//   scanf("%d", &m );
+                                                                      // HOLLOW RECTANGLE
+//   for(int i = 1 ; i<= n ; i++ ){
+     
+//     for (int j = 1 ; j<= m ; j ++ ){
+//       if(j == 1 ||j == m ||i == 1 ||i == n)
+//       printf("*");
+//       else printf(" ");
+//     }
+//     printf("\n");
+//   }
+// return 0 ;
+
+// }
+
+// #include<stdio.h>
+
+// *   *            // n ALWAY ODD 
+//  * * 
+//   *  
+//  * * 
+// *   *
+// int main(){
+//   int n ; 
+//   printf("Enter a number ");
+//   scanf("%d ", &n);
+//   for(int i = 0 ; i <n ; i++){
+// for(int j = 0 ; j< n ; j++){
+//   if(j == i || j == (n-1)-i)printf("*");
+//   else printf(" ");
+// }
+
+// printf("\n");
+//   }
+//   return 0 ;
+// }
+
