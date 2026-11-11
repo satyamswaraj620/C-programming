@@ -54,3 +54,16 @@ for(int i = 1 ; i <=n ; i++){
 }
 return 0 ;
 }
+for(int i = 1 ; i <=n ; i++){
+    char c = 'A' ;
+    for(int j = 1 ; j<=i ; j++){
+        printf("%c",c);
+       // c++ ;
+       c = c + 1 ;
+
+    }
+    printf("\n");
+}
+return 0 ;
+}
+
