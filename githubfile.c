@@ -65,5 +65,11 @@ for(int i = 1 ; i <=n ; i++){
     printf("\n");
 }
 return 0 ;
+}       c = c + 1 ;
+
+    }
+    printf("\n");
+}
+return 0 ;
 }
 
