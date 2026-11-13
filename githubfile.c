@@ -77,3 +77,9 @@ return 0 ;
     }
     printf("\n");
 }
+
+
+    for(int j = 1 ; j<=i ; j++){
+        printf("%c",c);
+       // c++ ;
+       c = c + 1 ;
