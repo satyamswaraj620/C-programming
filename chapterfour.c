@@ -181,3 +181,8 @@ printf("sum of number from 5 to 50 is %d: ",sum);
     
     return 0 ;
 }
+
+printf("sum of number from 5 to 50 is %d: ",sum);
+    
+    return 0 ;
+}
